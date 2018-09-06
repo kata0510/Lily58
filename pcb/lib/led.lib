@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LED
+#
+DEF LED J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "LED" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 150 50 -150 1 1 10 f
+S 0 -95 50 -105 1 1 6 N
+S 0 5 50 -5 1 1 6 N
+S 0 105 50 95 1 1 6 N
+P 2 1 1 10 -50 -50 50 -50 N
+P 2 1 1 10 -50 50 50 50 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
