@@ -687,31 +687,31 @@ Text GLabel 5500 2250 1    50   Input ~ 0
 col5
 Wire Wire Line
 	5250 5150 6100 5150
-Text GLabel 3850 3200 2    50   Input ~ 0
+Text GLabel 4050 3200 2    50   Input ~ 0
 col5
-Text GLabel 3850 3100 2    50   Input ~ 0
+Text GLabel 4050 3100 2    50   Input ~ 0
 col4
-Text GLabel 3850 3000 2    50   Input ~ 0
+Text GLabel 4050 3000 2    50   Input ~ 0
 col3
-Text GLabel 3850 2900 2    50   Input ~ 0
+Text GLabel 4050 2900 2    50   Input ~ 0
 col2
-Text GLabel 3850 2800 2    50   Input ~ 0
+Text GLabel 4050 2800 2    50   Input ~ 0
 col1
-Text GLabel 3850 2700 2    50   Input ~ 0
+Text GLabel 4050 2700 2    50   Input ~ 0
 col0
 NoConn ~ 2550 2700
 $Comp
 L Lily58-cache:VCC #PWR04
 U 1 1 5B736B57
-P 4150 2400
-F 0 "#PWR04" H 4150 2250 50  0001 C CNN
-F 1 "VCC" H 4150 2550 50  0000 C CNN
-F 2 "" H 4150 2400 50  0001 C CNN
-F 3 "" H 4150 2400 50  0001 C CNN
-	1    4150 2400
+P 4200 2400
+F 0 "#PWR04" H 4200 2250 50  0001 C CNN
+F 1 "VCC" H 4200 2550 50  0000 C CNN
+F 2 "" H 4200 2400 50  0001 C CNN
+F 3 "" H 4200 2400 50  0001 C CNN
+	1    4200 2400
 	0    1    1    0   
 $EndComp
-Text GLabel 3850 2300 2    50   Input ~ 0
+Text GLabel 4000 2300 2    50   Input ~ 0
 RESET
 NoConn ~ 3850 2100
 Text GLabel 2550 2100 0    50   Input ~ 0
@@ -792,37 +792,37 @@ $EndComp
 $Comp
 L Lily58-cache:LED J1
 U 1 1 5B74AE32
-P 4000 3550
-F 0 "J1" H 4000 3750 50  0000 C CNN
-F 1 "LED" H 4000 3350 50  0000 C CNN
-F 2 "Lily58-footprint:StripLED" H 4000 3550 50  0001 C CNN
-F 3 "" H 4000 3550 50  0001 C CNN
-	1    4000 3550
+P 4000 3600
+F 0 "J1" H 4000 3800 50  0000 C CNN
+F 1 "LED" H 4000 3400 50  0000 C CNN
+F 2 "Lily58-footprint:StripLED" H 4000 3600 50  0001 C CNN
+F 3 "" H 4000 3600 50  0001 C CNN
+	1    4000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lily58-cache:VCC #PWR07
 U 1 1 5B74B06A
-P 4200 3450
-F 0 "#PWR07" H 4200 3300 50  0001 C CNN
-F 1 "VCC" H 4217 3623 50  0000 C CNN
-F 2 "" H 4200 3450 50  0001 C CNN
-F 3 "" H 4200 3450 50  0001 C CNN
-	1    4200 3450
+P 4200 3500
+F 0 "#PWR07" H 4200 3350 50  0001 C CNN
+F 1 "VCC" H 4217 3673 50  0000 C CNN
+F 2 "" H 4200 3500 50  0001 C CNN
+F 3 "" H 4200 3500 50  0001 C CNN
+	1    4200 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lily58-cache:GND #PWR08
 U 1 1 5B74B15A
-P 4200 3650
-F 0 "#PWR08" H 4200 3400 50  0001 C CNN
-F 1 "GND" H 4205 3477 50  0000 C CNN
-F 2 "" H 4200 3650 50  0001 C CNN
-F 3 "" H 4200 3650 50  0001 C CNN
-	1    4200 3650
+P 4200 3700
+F 0 "#PWR08" H 4200 3450 50  0001 C CNN
+F 1 "GND" H 4205 3527 50  0000 C CNN
+F 2 "" H 4200 3700 50  0001 C CNN
+F 3 "" H 4200 3700 50  0001 C CNN
+	1    4200 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 4200 3550 2    50   Input ~ 0
+Text GLabel 4200 3600 2    50   Input ~ 0
 LED
 $Comp
 L Lily58-cache:GND #PWR010
@@ -1117,12 +1117,12 @@ $EndComp
 $Comp
 L Lily58-cache:GND #PWR0101
 U 1 1 5B8CD05E
-P 4150 2200
-F 0 "#PWR0101" H 4150 1950 50  0001 C CNN
-F 1 "GND" H 4150 2050 50  0000 C CNN
-F 2 "" H 4150 2200 50  0001 C CNN
-F 3 "" H 4150 2200 50  0001 C CNN
-	1    4150 2200
+P 4200 2200
+F 0 "#PWR0101" H 4200 1950 50  0001 C CNN
+F 1 "GND" H 4200 2050 50  0000 C CNN
+F 2 "" H 4200 2200 50  0001 C CNN
+F 3 "" H 4200 2200 50  0001 C CNN
+	1    4200 2200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1212,194 +1212,72 @@ Text GLabel 2550 2200 0    50   Input ~ 0
 DATA
 Text GLabel 4150 4550 2    50   Input ~ 0
 DATA
-$Comp
-L Lily58-cache:OLED J3
-U 1 1 5B91007B
-P 2350 5100
-F 0 "J3" H 2350 4850 50  0000 C CNN
-F 1 "OLED" H 2350 5350 50  0000 C CNN
-F 2 "Lily58-footprint:OLED_4Pin" H 2350 5100 50  0001 C CNN
-F 3 "" H 2350 5100 50  0000 C CNN
-	1    2350 5100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2550 4950 2700 4950
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5B911E74
-P 2850 4950
-F 0 "JP1" H 2850 4900 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5044 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 4950 50  0001 C CNN
-F 3 "~" H 2850 4950 50  0001 C CNN
-	1    2850 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5B9120CE
-P 2850 5050
-F 0 "JP2" H 2850 5000 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5144 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 5050 50  0001 C CNN
-F 3 "~" H 2850 5050 50  0001 C CNN
-	1    2850 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 5B913646
-P 2850 5150
-F 0 "JP3" H 2850 5100 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5244 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 5150 50  0001 C CNN
-F 3 "~" H 2850 5150 50  0001 C CNN
-	1    2850 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 5B913C11
-P 2850 5250
-F 0 "JP4" H 2850 5200 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5344 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 5250 50  0001 C CNN
-F 3 "~" H 2850 5250 50  0001 C CNN
-	1    2850 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP5
-U 1 1 5B9141F4
-P 2850 5400
-F 0 "JP5" H 2850 5350 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5494 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 5400 50  0001 C CNN
-F 3 "~" H 2850 5400 50  0001 C CNN
-	1    2850 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP6
-U 1 1 5B9141FA
-P 2850 5500
-F 0 "JP6" H 2850 5450 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5594 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 5500 50  0001 C CNN
-F 3 "~" H 2850 5500 50  0001 C CNN
-	1    2850 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP7
-U 1 1 5B914200
-P 2850 5600
-F 0 "JP7" H 2850 5550 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5694 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 5600 50  0001 C CNN
-F 3 "~" H 2850 5600 50  0001 C CNN
-	1    2850 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP8
-U 1 1 5B914206
-P 2850 5700
-F 0 "JP8" H 2850 5650 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 2850 5794 50  0001 C CNN
-F 2 "Lily58-footprint:Jumper" H 2850 5700 50  0001 C CNN
-F 3 "~" H 2850 5700 50  0001 C CNN
-	1    2850 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 5050 2650 5050
-Wire Wire Line
-	2550 5150 2600 5150
-Wire Wire Line
-	2750 5250 2550 5250
-Wire Wire Line
-	2550 5250 2550 5700
-Wire Wire Line
-	2550 5700 2750 5700
-Connection ~ 2550 5250
-Wire Wire Line
-	2600 5150 2600 5600
-Wire Wire Line
-	2600 5600 2750 5600
-Connection ~ 2600 5150
-Wire Wire Line
-	2600 5150 2750 5150
-Wire Wire Line
-	2650 5050 2650 5500
-Wire Wire Line
-	2650 5500 2750 5500
-Connection ~ 2650 5050
-Wire Wire Line
-	2650 5050 2750 5050
-Wire Wire Line
-	2700 4950 2700 5400
-Wire Wire Line
-	2700 5400 2750 5400
-Connection ~ 2700 4950
-Wire Wire Line
-	2700 4950 2750 4950
-$Comp
-L power:GND #PWR03
-U 1 1 5B9205B8
-P 2950 4950
-F 0 "#PWR03" H 2950 4700 50  0001 C CNN
-F 1 "GND" V 2955 4822 50  0000 R CNN
-F 2 "" H 2950 4950 50  0001 C CNN
-F 3 "" H 2950 4950 50  0001 C CNN
-	1    2950 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR09
-U 1 1 5B9207DA
-P 2950 5050
-F 0 "#PWR09" H 2950 4900 50  0001 C CNN
-F 1 "VCC" V 2967 5178 50  0000 L CNN
-F 2 "" H 2950 5050 50  0001 C CNN
-F 3 "" H 2950 5050 50  0001 C CNN
-	1    2950 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5B920A11
-P 2950 5700
-F 0 "#PWR014" H 2950 5450 50  0001 C CNN
-F 1 "GND" V 2955 5572 50  0000 R CNN
-F 2 "" H 2950 5700 50  0001 C CNN
-F 3 "" H 2950 5700 50  0001 C CNN
-	1    2950 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VCC #PWR011
-U 1 1 5B920C33
-P 2950 5600
-F 0 "#PWR011" H 2950 5450 50  0001 C CNN
-F 1 "VCC" V 2967 5728 50  0000 L CNN
-F 2 "" H 2950 5600 50  0001 C CNN
-F 3 "" H 2950 5600 50  0001 C CNN
-	1    2950 5600
-	0    1    1    0   
-$EndComp
-Text GLabel 2950 5500 2    50   Input ~ 0
-SCL
-Text GLabel 2950 5400 2    50   Input ~ 0
-SDA
-Text GLabel 2950 5150 2    50   Input ~ 0
-SCL
-Text GLabel 2950 5250 2    50   Input ~ 0
-SDA
-Wire Wire Line
-	3850 2200 4150 2200
-Wire Wire Line
-	3850 2400 4150 2400
 Connection ~ 3550 4550
+$Comp
+L Lily58-cache:CONN_01X06 P3
+U 1 1 5BB0EA73
+P 2400 5250
+F 0 "P3" H 2400 5600 50  0000 C CNN
+F 1 "ICSP" H 2400 4900 50  0000 C CNN
+F 2 "Lily58-footprint:ICSP" H 2400 5250 50  0001 C CNN
+F 3 "" H 2400 5250 50  0000 C CNN
+	1    2400 5250
+	-1   0    0    -1  
+$EndComp
+Text Label 2600 5000 0    50   ~ 0
+MISO
+Text Label 2600 5200 0    50   ~ 0
+SCK
+Text Label 2600 5300 0    50   ~ 0
+MOSI
+Text Label 2600 5400 0    50   ~ 0
+RST
+$Comp
+L power:VCC #PWR0103
+U 1 1 5BB0F35D
+P 2600 5100
+F 0 "#PWR0103" H 2600 4950 50  0001 C CNN
+F 1 "VCC" V 2617 5228 50  0000 L CNN
+F 2 "" H 2600 5100 50  0001 C CNN
+F 3 "" H 2600 5100 50  0001 C CNN
+	1    2600 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5BB0F4C7
+P 2600 5500
+F 0 "#PWR0104" H 2600 5250 50  0001 C CNN
+F 1 "GND" H 2605 5327 50  0000 C CNN
+F 2 "" H 2600 5500 50  0001 C CNN
+F 3 "" H 2600 5500 50  0001 C CNN
+	1    2600 5500
+	1    0    0    -1  
+$EndComp
+Text Label 3850 3000 0    50   ~ 0
+MISO
+Text Label 3850 3100 0    50   ~ 0
+MOSI
+Text Label 3850 2300 0    50   ~ 0
+RST
+Text Label 3850 2900 0    50   ~ 0
+SCK
+Wire Wire Line
+	4000 2300 3850 2300
+Wire Wire Line
+	3850 2700 4050 2700
+Wire Wire Line
+	4050 2800 3850 2800
+Wire Wire Line
+	3850 2900 4050 2900
+Wire Wire Line
+	3850 3000 4050 3000
+Wire Wire Line
+	4050 3100 3850 3100
+Wire Wire Line
+	4050 3200 3850 3200
+Wire Wire Line
+	4200 2200 3850 2200
+Wire Wire Line
+	4200 2400 3850 2400
 $EndSCHEMATC
