@@ -1,9 +1,9 @@
 # Lily58
 Lily58 is 6×4+5keys column-staggered split keyboard.
-![dsc02250](https://user-images.githubusercontent.com/6285554/47264498-53384a80-d553-11e8-907a-a03c6f2c5893.JPG)
+![Lily58_01](https://user-images.githubusercontent.com/6285554/47264498-53384a80-d553-11e8-907a-a03c6f2c5893.JPG)
 
 
-![Lily58_03](https://user-images.githubusercontent.com/6285554/45337733-7b33a600-b5c4-11e8-85b0-35f1cc9bf946.png)
+![Lily58_02](https://user-images.githubusercontent.com/6285554/47281426-0e291c80-d616-11e8-893f-1397cdd0d9b8.png)
 
 # Parts
 
