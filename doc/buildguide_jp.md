@@ -72,6 +72,9 @@ Lily58のデフォルトキーマップを書き込むにはqmk_firmwareのフ�
 **Detecting USB port, reset your controller now...** と表示されたらキーボード上のリセットボタンを押すと書き込みが始まります。  
 上記の要領でもう片方のキーボードにも同じように書き込みを行って下さい。 
 
+Defaultキーマップは以下のようになっています
+![lily58_default](https://user-images.githubusercontent.com/6285554/47273241-38ee8300-d5cc-11e8-9099-10c1b35e24fc.png)
+
 ## 動作確認
 左右をTRRSケーブル(TRSケーブル)で接続し左側のProMicro(デフォルトキーマップの場合)にMicroUSBケーブルを接続しキーが反応するかを確認して下さい。  
 裏面にゴム足を4箇所取り付けて完成です。お疲れ様でした。
