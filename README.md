@@ -9,8 +9,8 @@ Lily58 is 6×4+5keys column-staggered split keyboard.
 
 |PartsName |   |    |
 |----------|---|----|
-|Lily56 PCB|2pcs||
-|Lily56 Case|1set||
+|Lily58 PCB|2pcs||
+|Lily58 Case|1set||
 |ProMicro|2pcs||
 |KeySwitch(CherryMX,PG1350)|58pcs|ALPS NotSupport|
 |Diode 1N4148(1N4148W)|58pcs||
