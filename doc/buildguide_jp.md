@@ -26,30 +26,49 @@
 付属の足付きダイオードを使用する場合ははんだ付けした面の飛び出しを最小限にする必要があります。(足をカットしてからはんだ付けを行う)**
 
 このPCBはリバーシブルなので**片面づつに**部品を実装していきます。ダイオードを実装する面(オレンジの部品が見える方)が裏面の扱いになります。
-![48868151-011d6a00-ee1c-11e8-99a2-9573da09a4cd](https://user-images.githubusercontent.com/6285554/52003383-b6992780-2507-11e9-872c-82b0bb5c6cd6.jpg)
+![img_2008](https://user-images.githubusercontent.com/6285554/52172886-61d20700-27bc-11e9-888f-42a95c7dd569.JPG)
 横から見るとこのような図になります
 ![PCB2](https://user-images.githubusercontent.com/6285554/51115630-2642bd80-184c-11e9-93e5-8f85ee5e45b0.png)
 
 ダイオードの足を曲げます。
 ケース3枚を重ねた状態のものに押し当てると簡単にダイオードの足を曲げることができます。  
-![2019-01-14 22 55 04](https://user-images.githubusercontent.com/6285554/51117390-05309b80-1851-11e9-8667-9541477c0720.jpg)
+![img_2009](https://user-images.githubusercontent.com/6285554/52172887-6ac2d880-27bc-11e9-9b3e-378a83c5a881.JPG)
  
  PCBの裏側(スイッチやProMicroを取り付けるのと反対側)に折り曲げたダイオードを差し込みます。  
 ダイオードには向きがあります。PCBの表記を確認して正しい方向に差し込んで下さい。  
 以下の画像のようにダイオードの黒い線が常に基板の表示の三角形の横棒のある方向に向いた状態ではんだ付けをしてください。向きが正しくないとキーが反応しません。
 ![46900579-542c0500-cedf-11e8-87a7-07f710f7e78e](https://user-images.githubusercontent.com/6285554/52002682-f7903c80-2505-11e9-907a-8407568322da.jpg)
 ![diode](https://user-images.githubusercontent.com/6285554/48820707-83187f00-ed99-11e8-802e-90b23ca594a0.png)  
-![46900580-54c49b80-cedf-11e8-865e-58efa7f6a1a6](https://user-images.githubusercontent.com/6285554/52002683-f8c16980-2505-11e9-8b50-15e53a5a84a8.jpg)
-裏側からはんだ付けを行いますが落ちてしまうので足を広げるかマスキングテープなどで止めます。  
+  
+裏側からはんだ付けを行いますが落ちてしまうため、マスキングテープなどで止めます。止める際にダイオードが浮かないようにテープの上から力を加えて抑えながら仮固定します。
+![img_2010](https://user-images.githubusercontent.com/6285554/52172891-829a5c80-27bc-11e9-81ab-878caa8645f6.jpg)
+はんだ付けを行います。
+![unadjustednonraw_thumb_2d42](https://user-images.githubusercontent.com/6285554/52172899-b07fa100-27bc-11e9-9210-38bbdfb7d979.jpg)
 
-はんだ付けが終わったらダイオードの足をニッパー等でカットします。カットするときに足が飛ぶ場合があるので抑えながらカットするなどしてください。  
+はんだ付けが終わったらダイオードの足をニッパー等でカットします。カットするときに足が飛びやすいため、手で足をつまみながらカットしましょう。
+カットが終わったら10mm(長いスペーサー)を取り付けします。
+![unadjustednonraw_thumb_2d48](https://user-images.githubusercontent.com/6285554/52172901-b07fa100-27bc-11e9-88a8-61a0eacfc6a4.jpg)
 
 ## TRRSジャック/リセットスイッチをはんだ付けする
-表面の左上にTRRSジャックを取り付けします。どちらも裏返してはんだ付けする際に落ちたりずれやすいのでマスキングテープなどで固定します  
+表面の左上にTRRSジャックを取り付けします。どちらも裏返してはんだ付けする際に落ちたりずれやすいのでマスキングテープなどで仮固定します。
+![unadjustednonraw_thumb_2d4a](https://user-images.githubusercontent.com/6285554/52172948-8da1bc80-27bd-11e9-928b-fba7b8fa2b49.jpg)  
+裏側からはんだ付けをします。
+![unadjustednonraw_thumb_2d4b](https://user-images.githubusercontent.com/6285554/52172964-e6715500-27bd-11e9-9b0a-4186301a1d56.jpg)
+
+
+## OLED用を使用する場合(オプション)
+OLEDを使用する場合は表面のProMicro近くの4つのパッドをジャンパさせてください。   
+![unadjustednonraw_thumb_2d41](https://user-images.githubusercontent.com/6285554/52172989-41a34780-27be-11e9-858a-cc69c2626160.jpg)
 
 ## Pro Microをはんだ付けする
-(コンスルーソケット使用の場合ははんだ付けの方法が異なります。[コンスルーを使用する場合](https://github.com/kata0510/Lily58/blob/master/doc/buildguide_jp.md#コンスルーを使用する場合)を参照してください。)  
+   
+#### コンスルーを使用する場合
+[コンスルー](https://yushakobo.jp/shop/a01mc-00/)を使用する場合は以下のような取り付け方法を行ってください。
+Helixの[ビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)のProMicroの章を参考にはんだ付けを行います。
+ProMicro側のみはんだ付けを行い、PCB側ははんだ付けしません。
+はんだ付けが終わった後は浮きが無いようにしっかりと差し込みます。
 
+### 付属のピンを使用する場合
 Pro Microを袋から取り出し、足が長い方を下にして以下の画像の赤線の内側の**PCBの線で囲まれている列を確認して**PCBに差し込みます。左右で差し込む場所が異なるため注意してください。 
 
 ![ProMicro_PCB](https://user-images.githubusercontent.com/6285554/48819671-6a599a80-ed94-11e8-8e5d-6a6abca326a7.png)
@@ -62,29 +81,22 @@ ProMicro側をはんだ付けをします。
 ProMicro側をはんだ付け後マスキングテープ等で固定し基板の裏側からはんだ付けを行います。  
 はんだ付け後ニッパーなどで余っているピンをカットします  
 
-#### コンスルーを使用する場合
-[コンスルー](https://yushakobo.jp/shop/a01mc-00/)を使用する場合は以下のような取り付け方法を行ってください。
-Helixの[ビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)のProMicroの章を参考にはんだ付けを行います。
-ProMicro側のみはんだ付けを行い、PCB側ははんだ付けしません。
-はんだ付けが終わった後は浮きが無いようにしっかりと差し込みます。
-
 ## キースイッチを取り付ける
-位置合わせのため、トッププレートにキースイッチを4箇所はめ込み、ピンが曲がらないように注意しながらPCBに取り付けし、はんだ付けします。
-![51122894-411e2d80-185e-11e9-8f55-9407815ddb53](https://user-images.githubusercontent.com/6285554/52003384-b6992780-2507-11e9-8612-c25a2664c2af.jpg)
+トッププレートにスペーサーとキースイッチを4箇所はめ込み、ピンが曲がらないように注意しながらPCBに取り付けし、浮きや傾きが無いことを確認して4つのスイッチをはんだ付けします。
+![unadjustednonraw_thumb_2d3e](https://user-images.githubusercontent.com/6285554/52173011-9a72e000-27be-11e9-9716-4c9a301c35ac.jpg)
+![4dabqoswsoi9o8wor3cdfg_thumb_2d49](https://user-images.githubusercontent.com/6285554/52173013-9fd02a80-27be-11e9-958e-54bb7e929f1d.jpg)
 
-
-正常に取り付けできている場合PCBからピンの足が少し出てきますが曲がっている場合やしっかりとはまっていない場合は下側の画像のように足が出てきません。足が曲がっている場合やプレートにしっかりはまっていないので1度取り外すなどして確認して下さい。
-中列から取り付けていき全てのスイッチを取り付けし、はんだ付けします。
+トッププレートに残りのスイッチを取り付けをします。   
+正常に取り付けできている場合PCBからピンの足が少し出てきますが曲がっている場合やしっかりとはまっていない場合は下側の画像のように足が出てきません。足が曲がっている場合やプレートにしっかりはまっていないので1度取り外すなどして確認して下さい。   
+すべてのスイッチを取り付けをしてはんだ付けをします。
 ![48868154-037fc400-ee1c-11e8-9d45-b888f744387a](https://user-images.githubusercontent.com/6285554/52002691-fb23c380-2505-11e9-8fa1-c75d20d3636d.jpg)
 ![switch](https://user-images.githubusercontent.com/6285554/48868657-b7ce1a00-ee1d-11e8-9346-9bfc967e95cf.png)
 
-## スペーサーとネジを取り付け
-10mmの丸いスペーサー4つをProMicro付近の穴に取り付けします
-![48868166-0c709580-ee1c-11e8-9af9-0edfa0135c78](https://user-images.githubusercontent.com/6285554/52002692-fbbc5a00-2505-11e9-98c7-3541bfc54c0b.jpg)
-5mmスペーサーを片側5箇所に取り付けします。  
+## ProMicroカバーを取り付け
 Pro Micro上部用のアクリルを取り付けます。  
 幅が広い方を外側にして取り付けます。低頭ネジで上部をネジ止めします。
-![46900554-d2d47280-cede-11e8-96d6-5e3961472ad3](https://user-images.githubusercontent.com/6285554/52002697-fc54f080-2505-11e9-884e-facc830de000.jpg)
+![promicro_cover](https://user-images.githubusercontent.com/6285554/48837829-c4288780-edc9-11e8-8efb-6714d8e68e92.png)
+![unadjustednonraw_thumb_2d47](https://user-images.githubusercontent.com/6285554/52173081-ea9e7200-27bf-11e9-9551-3eb41a0389cb.jpg)
 ## キーマップの書き込み
 キーマップを書き込むために準備が必要です。導入されていることを前提に記述しております。[qmk公式のページなどを参考に導入して下さい。](https://docs.qmk.fm/#/getting_started_build_tools)  
   
@@ -105,6 +117,8 @@ Defaultキーマップは以下のようになっています。
 ## 動作確認
 左右をTRRSケーブル(TRSケーブル)で接続し左側のProMicro(デフォルトキーマップの場合)にMicroUSBケーブルを接続しキーが反応するかを確認して下さい。  
 裏面にゴム足を4箇所取り付けて完成です。お疲れ様でした。
+![vu6sptlhszykivrvgkltyw_thumb_2d44](https://user-images.githubusercontent.com/6285554/52173150-795fbe80-27c1-11e9-8376-edc698e943e8.jpg)
+
 ![47264498-53384a80-d553-11e8-907a-a03c6f2c5893](https://user-images.githubusercontent.com/6285554/52002699-fd861d80-2505-11e9-96a8-f58a93534255.jpg)
 
 ## 困ったときは
