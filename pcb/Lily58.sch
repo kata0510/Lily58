@@ -1280,4 +1280,189 @@ Wire Wire Line
 	4200 2200 3850 2200
 Wire Wire Line
 	4200 2400 3850 2400
+$Comp
+L Lily58-cache:CONN_01X04 P4
+U 1 1 5BE5032C
+P 2450 6200
+F 0 "P4" H 2450 5950 50  0000 C CNN
+F 1 "OLED" H 2450 6450 50  0000 C CNN
+F 2 "Lily58-footprint:MY_SIL-4" H 2450 6200 50  0001 C CNN
+F 3 "" H 2450 6200 50  0000 C CNN
+	1    2450 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5BE50789
+P 3050 6050
+F 0 "#PWR03" H 3050 5800 50  0001 C CNN
+F 1 "GND" V 3050 5900 50  0000 R CNN
+F 2 "" H 3050 6050 50  0001 C CNN
+F 3 "" H 3050 6050 50  0001 C CNN
+	1    3050 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5BE509B9
+P 3050 6150
+F 0 "#PWR09" H 3050 6000 50  0001 C CNN
+F 1 "VCC" V 3050 6300 50  0000 L CNN
+F 2 "" H 3050 6150 50  0001 C CNN
+F 3 "" H 3050 6150 50  0001 C CNN
+	1    3050 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 6050 2800 6050
+Wire Wire Line
+	2650 6150 2750 6150
+Wire Wire Line
+	2650 6250 2700 6250
+Text GLabel 3050 6250 2    50   Input ~ 0
+SCL
+Text GLabel 3050 6350 2    50   Input ~ 0
+SDA
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5BE6BEDA
+P 2950 6050
+F 0 "JP1" H 2950 6000 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6144 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6050 50  0001 C CNN
+F 3 "~" H 2950 6050 50  0001 C CNN
+	1    2950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5BE6E056
+P 2950 6150
+F 0 "JP2" H 2950 6100 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6244 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6150 50  0001 C CNN
+F 3 "~" H 2950 6150 50  0001 C CNN
+	1    2950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP3
+U 1 1 5BE6E17A
+P 2950 6250
+F 0 "JP3" H 2950 6200 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6344 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6250 50  0001 C CNN
+F 3 "~" H 2950 6250 50  0001 C CNN
+	1    2950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 5BE6E297
+P 2950 6350
+F 0 "JP4" H 2950 6300 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6444 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6350 50  0001 C CNN
+F 3 "~" H 2950 6350 50  0001 C CNN
+	1    2950 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 6500 2    50   Input ~ 0
+SDA
+Text GLabel 3050 6600 2    50   Input ~ 0
+SCL
+$Comp
+L power:VCC #PWR011
+U 1 1 5BE6F5B9
+P 3050 6700
+F 0 "#PWR011" H 3050 6550 50  0001 C CNN
+F 1 "VCC" V 3050 6850 50  0000 L CNN
+F 2 "" H 3050 6700 50  0001 C CNN
+F 3 "" H 3050 6700 50  0001 C CNN
+	1    3050 6700
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5BE6F75A
+P 3050 6800
+F 0 "#PWR014" H 3050 6550 50  0001 C CNN
+F 1 "GND" V 3050 6650 50  0000 R CNN
+F 2 "" H 3050 6800 50  0001 C CNN
+F 3 "" H 3050 6800 50  0001 C CNN
+	1    3050 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 5BE6FAC4
+P 2950 6500
+F 0 "JP5" H 2950 6450 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6594 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6500 50  0001 C CNN
+F 3 "~" H 2950 6500 50  0001 C CNN
+	1    2950 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP6
+U 1 1 5BE6FACA
+P 2950 6600
+F 0 "JP6" H 2950 6550 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6694 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6600 50  0001 C CNN
+F 3 "~" H 2950 6600 50  0001 C CNN
+	1    2950 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP7
+U 1 1 5BE6FAD0
+P 2950 6700
+F 0 "JP7" H 2950 6650 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6794 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6700 50  0001 C CNN
+F 3 "~" H 2950 6700 50  0001 C CNN
+	1    2950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP8
+U 1 1 5BE6FAD6
+P 2950 6800
+F 0 "JP8" H 2950 6750 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2950 6894 50  0001 C CNN
+F 2 "Lily58-footprint:Jumper" H 2950 6800 50  0001 C CNN
+F 3 "~" H 2950 6800 50  0001 C CNN
+	1    2950 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6350 2650 6800
+Wire Wire Line
+	2700 6700 2700 6250
+Wire Wire Line
+	2750 6150 2750 6600
+Wire Wire Line
+	2800 6050 2800 6500
+Wire Wire Line
+	2850 6050 2800 6050
+Connection ~ 2800 6050
+Wire Wire Line
+	2850 6150 2750 6150
+Connection ~ 2750 6150
+Wire Wire Line
+	2700 6250 2850 6250
+Connection ~ 2700 6250
+Wire Wire Line
+	2650 6350 2850 6350
+Connection ~ 2650 6350
+Wire Wire Line
+	2850 6500 2800 6500
+Wire Wire Line
+	2750 6600 2850 6600
+Wire Wire Line
+	2850 6700 2700 6700
+Wire Wire Line
+	2650 6800 2850 6800
 $EndSCHEMATC
