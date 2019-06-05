@@ -1,5 +1,6 @@
-# Lily58 Pro ビルドガイド[WIP]
+# Lily58 Pro ビルドガイド
 
+[English build guide](https://github.com/kata0510/Lily58/blob/master/Pro/Doc/buildguide_en.md)
 
 ## 必要部品
 
@@ -81,9 +82,10 @@ OLEDピンをソケットに差し込み、その上にOLEDモジュールを載
 
 
 ## Pro Microを取り付ける  
-ProMicroの袋に同封しているピンヘッダは使用しません。遊舎工房にて購入されたキットの場合スプリングピンヘッダが同梱されているのでそちらを使用します。  
+ProMicroの袋に同封しているピンヘッダは使用を推奨しません。遊舎工房にて購入されたキットの場合スプリングピンヘッダが同梱されているのでそちらを使用します。  
 ![IMG_2662](https://user-images.githubusercontent.com/6285554/57210525-f5171480-7017-11e9-9d92-3a345d53db94.jpg)  
-スプリングピンヘッダ(コンスルー)で取り付ける際はHelixのビルドガイドに記載されている方法に従ってはんだ付けをしてからLily58のPCBに取り付けを行ってください。[Helixビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)
+スプリングピンヘッダ(コンスルー)で取り付ける際はHelixのビルドガイドに記載されている方法に従ってはんだ付けをしてからLily58のPCBに取り付けを行ってください。[Helixビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)  
+抜き差しを可能にするためPCB側のはんだ付けは必要ありません。
 
 **PCBの線で囲まれている列を確認して**PCBに差し込みます。左右で差し込む場所が異なるため注意してください。 
 
@@ -113,6 +115,9 @@ ProMicroの袋に同封しているピンヘッダは使用しません。遊舎
 KailhBOXスイッチ、Chocスイッチは取り付けに力が多少必要なので注意してください。  
 しっかりと取り付けられてないことがあるので取り付けた後再度スイッチを押し込んで最後まで取り付けできているか確認します。
 ![2019-01-26 15 10 06](https://user-images.githubusercontent.com/6285554/51967840-b66f3c80-24b3-11e9-8f50-6d8d31fe85e5.jpg)
+
+## OLEDを取り付ける
+ProMicro下部のソケットにOLEDピンを差し込み、OLEDモジュールを載せます。斜めにならないように気をつけながらはんだ付けをします。
 
 ## ProMicro保護アクリルの取り付け
 ProMicro上部用のアクリルの保護紙を剥がし、取り付けます。  
