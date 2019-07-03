@@ -1,4 +1,4 @@
-# 内容品の確認
+## 内容品の確認
 キットの内容品の確認をします。
 |名前|個数|備考|
 ----|----|----
@@ -89,7 +89,26 @@ OLEDモジュールを取り出し、ソケットにピンを差し込んでそ�
 その後OLEDカバーを取り付けます。
 ![IMG_3599](https://user-images.githubusercontent.com/6285554/60533830-7569a580-9d3b-11e9-9879-5f2892393f9f.jpeg)
 
+## キーマップの書き込み
+キーマップを書き込むために準備が必要です。導入されていることを前提に記述しております。[qmk公式のページなどを参考に導入して下さい。](https://docs.qmk.fm/#/getting_started_build_tools)  
+  
+QMK Toolboxを使用すれば環境構築の必要が無く、GUIで書き込みが行うことができます。(キーマップの変更はできません)
+[qmk/qmk_toolbox](https://github.com/qmk/qmk_toolbox/releases)
 
+Lily58のデフォルトキーマップを書き込むにはqmk_firmwareのフォルダ階層で以下を実行します
+
+    make lily58:default:avrdude  
+
+
+**Detecting USB port, reset your controller now...** と表示されたらキーボード上のリセットボタンを押すと書き込みが始まります。  
+上記の要領でもう片方のキーボードにも同じように書き込みを行って下さい。 
+
+Defaultキーマップは以下のようになっています。
+![lily58_default](https://user-images.githubusercontent.com/6285554/47273241-38ee8300-d5cc-11e8-9099-10c1b35e24fc.png)
+
+## 動作確認
+左右をTRRSケーブル(TRSケーブル)で接続し左側のProMicro(デフォルトキーマップの場合)にMicroUSBケーブルを接続しキーが反応するかを確認して下さい。  
+動作確認をして完了です、組み立てお疲れ様でした。
 
 ## 困ったときは
 ### Q.1列(複数列)又は1行(複数行)キースイッチが反応しない
@@ -106,5 +125,3 @@ A.キースイッチのはんだづけ又はダイオードのはんだ付けに
 はんだ付けが足りない場合は再度はんだ付けを行ってください。
 
 **困った場合などはお気軽にDiscordサーバー([Self-Made Keyboards in Japan](https://discordapp.com/invite/NM7XtDW))の「#mon-shin」チャンネルもしくはTwitter:@F_YUUCHIにメッセージをお送りください**
-
-
