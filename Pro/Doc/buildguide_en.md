@@ -130,7 +130,7 @@ The [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) can be used to wr
  
 Execute the following in the `qmk_firmware` directory to write the default Lily58 keymap
 
-    sudo make lily58: default: avrdude
+    sudo make lily58:default:avrdude
 
 
 When **`Detecting USB port, reset your controller now ...`** is displayed, press the reset button on the keyboard to start writing.
