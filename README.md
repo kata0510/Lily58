@@ -38,3 +38,11 @@ Part name | Quantity | Remarks | Photo |
 | SK6812 Mini | 12 pcs | RGB led's for underglow ||
 | SK6812 Mini-E | 58 pcs |RGB led's for keycap backlight **(underglow led's must be soldered, because they are connected in series)** ||
 
+## Firmware:
+
+**Right now the Lily58L code is not merged into QMK Master. You can find the code [here](https://github.com/BenRoe/qmk_firmware/tree/Lily58L/keyboards/lily58l).**
+
+ 
+Clone/download the Lily58L firmware branch and execute the following in the `qmk_firmware` directory to write the default Lily58L keymap
+
+    qmk compile -kb lily58l -km default   
