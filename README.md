@@ -1,21 +1,40 @@
-# Lily58
-Lily58 is 6×4+4keys column-staggered split keyboard.
-![unadjustednonraw_thumb_2ddc](https://user-images.githubusercontent.com/6285554/53640050-6203dc00-3c6e-11e9-9434-5591ed3e414f.jpg)
+# Lily58L
+Lily58L is 6×4+4keys column-staggered split keyboard.
 
-![2019-03-01 22 14 38](https://user-images.githubusercontent.com/6285554/53640471-a0e66180-3c6f-11e9-960b-b542cc537e0f.png)
-![2019-03-01 22 15 15](https://user-images.githubusercontent.com/6285554/53640419-86ac8380-3c6f-11e9-9d5d-ec7763cac0b4.png)
+It is a modified version of the Lily58 Pro pcb from [kata0510](https://github.com/kata0510)
+and has the the following additional features.
+- one rotary encoder support on each side
+- underglow with SK6812 Mini RGB led's (6 per side)
+- per key RGB led with SK6812 Mini-E led (with legs, easy to solder)
+
+**Hardware available at [keycapsss.com](https://keycapsss.com)**
+
+![](img/Lily58L-pcb-1.png)
+![](img/Lily58L-pcb-2.png)
+
 
 # Parts
 
-|PartsName |   |    |
-|----------|---|----|
-|Lily58 PCB|2pcs||
-|Lily58 Case|1set||
-|ProMicro|2pcs||
-|KeySwitch(CherryMX,Choc)|58pcs|ALPS NotSupport|
-|Diode 1N4148(1N4148W)|58pcs||
-|TactSwitch |2pcs||
-|TRRSJack|2pcs||
-|TRRSCable|||
-|M2 Spacer 7mm(4mm),10mm|10pcs,4pcs||
-|M2 Screw 5mm|28pcs||
+Part name | Quantity | Remarks | Photo |
+| ------- | -------- | ------- | ----- |
+| Lily58L PCB | 2 pcs ||
+| Lily58L case | 1 set | 2 solid panels, 2 with holes for switches |
+| [Pro Micro](https://keycapsss.com/keyboard-parts/parts/79/arduino-pro-micro-atmega32u4-controller) or [Elite-C](https://keycapsss.com/keyboard-parts/parts/99/elite-c-pro-micro-replacement-with-usb-c-and-atmega32u4) | 2 pcs (a mix is possible) | Optionally, use [Mill-Max Single Row Socket Headers](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-pins-mill-max-series-315), to make it hot-swappable. ||
+| Key switch (MX) | 58 pcs |  ||
+| [Kailh switch socket](https://keycapsss.com/keyboard-parts/parts/49/kailh-hot-swap-pcb-sockets-10-pcs) | 58 pcs |  ||
+| Diodes 1N4148W (SMD) | 58 pcs |||
+| TRRS jack | 2 pcs ||
+| Tactile switch | 2 pcs | Reset switch ||
+| TRRS cable | 1 cable | Must be a 4-pole cable ||
+| Key caps | 58 pcs | 1.5U caps, can also be 1U ||
+| Micro USB or USB-C cable | 1 pcs | Dependent what you use on the master half. ||
+
+
+## Optionally:
+
+Part name | Quantity | Remarks | Photo |
+| ------- | -------- | ------- | ----- |
+| [OLED module](https://keycapsss.com/keyboard-parts/parts/80/ssd1306-oled-lcd-display-0.91-inch-128x32-i2c-white) | 2 pcs | It is possible to use only one display ||
+| SK6812 Mini | 12 pcs | RGB led's for underglow ||
+| SK6812 Mini-E | 58 pcs |RGB led's for keycap backlight **(underglow led's must be soldered, because they are connected in series)** ||
+
