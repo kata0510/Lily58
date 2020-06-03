@@ -105,6 +105,12 @@ The image shows a soldered MX socket.
 
 ![Kailh hot swap sockets]()
 
+## Solder the rotary encoder
+
+Soldering the rotary encoder is as simple as any other component. Put the encoder from the front into the holes on the PCB, just below the screen, and solder it from the back.
+
+**Tip** Depending on your case you should first try and bend the rotary encoder legs a bit before soldering it in. The legs can prevent your case from closing completly, as it will rest on the protruding legs. Bending the pins so that they are flush with the encoder helps here. 
+
 ## Attach the OLED display
 On the **front side** of the board, apply enough solder to bridge the four jumper terminals in the Pro Micro section.
 
