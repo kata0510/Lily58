@@ -78,6 +78,16 @@ OLEDモジュールを取り出し、ソケットにピンを差し込んでそ�
 その後OLEDカバーを取り付けます。
 ![IMG_3599](https://user-images.githubusercontent.com/6285554/60533830-7569a580-9d3b-11e9-9879-5f2892393f9f.jpeg)
 
+### OLEDを取り付けない場合
+OLEDを取り付けない場合はファームウェアのOLED機能をOFFにする必要があります。  
+以下のOLED機能をオフにしたファームウェアをダウンロードしていただき、QMKToolboxで書き込んでいただく、   
+もしくはご自身で環境を作っていただきファームウェアをコンパイルして頂く必要がございます。  
+‘qmk_firmware/keyboards/lily58/rules.mk‘と  
+‘qmk_firmware/keyboards/lily58/keymaps/[キーマップ]/rules.mk‘の‘OLED_DRIVER_ENABLE = yes‘をnoにしてコンパイルし、書き込んでください。
+  
+OLEDオフにしたデフォルトキーマップhexファイル
+[ダウンロード(lily58_rev1_default.hex)](https://drive.google.com/uc?export=download&id=1yPxZlVRVBfqq0-pEKkJZc93vqW6Jdboj)
+  
 ## キーマップの書き込み
 キーマップを書き込むために準備が必要です。導入されていることを前提に記述しております。[qmk公式のページなどを参考に導入して下さい。](https://docs.qmk.fm/#/getting_started_build_tools)  
   
