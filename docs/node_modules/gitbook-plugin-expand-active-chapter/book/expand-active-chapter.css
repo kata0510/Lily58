@@ -1,0 +1,7 @@
+.book .book-summary .chapter > .articles {
+  display: none;
+}
+
+.book .book-summary .chapter.expanded > .articles {
+  display: block;
+}
