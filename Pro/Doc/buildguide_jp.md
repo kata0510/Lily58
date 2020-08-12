@@ -1,6 +1,7 @@
 # Lily58 Pro ビルドガイド
 
-[English build guide](https://github.com/kata0510/Lily58/blob/master/Pro/Doc/buildguide_en.md)
+## 新しいビルドガイドページを参照ください
+[https://kata0510.github.io/Lily58-Document/Lily58_Pro.html](https://kata0510.github.io/Lily58-Document/Lily58_Pro.html)
 
 ## 必要部品
 

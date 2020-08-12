@@ -1,3 +1,7 @@
+## 新しいビルドガイドページを参照ください
+[https://kata0510.github.io/Lily58-Document/Lily58_Lite_BG.html](https://kata0510.github.io/Lily58-Document/Lily58_Lite_BG.html)
+
+
 ## 内容品の確認
 キットの内容品の確認をします。  
 ![IMG_4126のコピー](https://user-images.githubusercontent.com/6285554/63318661-2e1e8f00-c352-11e9-8275-bc597f2448a3.jpg)
