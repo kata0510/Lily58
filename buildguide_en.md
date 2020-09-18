@@ -119,7 +119,7 @@ Attach the connector for the OLED on front side (opposite side of diodes). Be ca
 
 ## Install Pro Micro
 
-Before installing the Pro Micro, no matter which (can also happen on the elite c), check whether they are working by plugging them in and flashing the default keymap. 
+**Before installing the Pro Micro, no matter which (can also happen on the elite c), check whether they are working by plugging them in and flashing the default keymap.** 
 
 The pin header enclosed in the bag of Pro Micro can be used, but i recommend to use the Mill-Max socket headers.
 With the Mill-Max header it's easier to replace the Pro Micro, if it's broken. (Especially the Pro Micros will break at some point)
@@ -168,7 +168,7 @@ The lower three pins do the actual rotary-encoding part
 ## You have reached a checkpoint 
 
 Plug your keyboard, look what happens, solve problems, be happy if there are none. (if you followed all the steps your pro micros should have firmware at this point)
-By now you can also checked whether all switches will be able to work. In order to do so, short the pads on which the kailh sockets will be installed with tweezers. (next step)
+By now you can also checked whether all switches will be able to work. In order to do so, short the pads on which the kailh sockets will be installed (next step) with tweezers. 
 
 ## Solder the sockets
 The sockets are mounted on the **back side**, the same side as the diodes.
