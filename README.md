@@ -7,6 +7,8 @@ and has the the following additional features.
 - underglow with SK6812 Mini RGB led's (6 per side)
 - per key RGB led with SK6812 Mini-E led (with legs, easy to solder)
 
+**[Build-Guide](buildguide_en.md)**
+
 **Hardware available at [keycapsss.com](https://keycapsss.com)**
 
 ![](img/Lily58L-pcb-1.png)
@@ -45,4 +47,5 @@ Part name | Quantity | Remarks | Photo |
  
 Clone/download the Lily58L firmware branch and execute the following in the `qmk_firmware` directory to write the default Lily58L keymap
 
+    git checkout Lily58L
     qmk compile -kb lily58l -km default   
