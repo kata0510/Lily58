@@ -155,6 +155,7 @@ Before you ask: The Procedure is absolutely identical for the Elite-C.
 - if you soldered the socket for the OLED, remove the black plastic thingy that's part of the header installed in the OLED. The you'll be able to shorten it's legs with your pliers and put them into the socket, resulting into a way more low profile OLED.  
 - If you do not have sockets installed, you can add height to the oled, by removing pins out of headers, and putting the empty black plastics part onto the headers of the OLED.
 
+> Add image here: "Soldered 4pin socket for Oled"
 
 ## Solder the rotary encoder
 
@@ -170,6 +171,8 @@ The lower three pins do the actual rotary-encoding part
 Plug your keyboard, look what happens, solve problems, be happy if there are none. (if you followed all the steps your pro micros should have firmware at this point)
 By now you can also checked whether all switches will be able to work. In order to do so, short the pads on which the kailh sockets will be installed (next step) with tweezers. 
 
+> Add image here: "Test switches with tweezer"
+
 ## Solder the sockets
 The sockets are mounted on the **back side**, the same side as the diodes.
 
@@ -178,7 +181,7 @@ The image shows a soldered MX socket.
 
 The sockets take **way** more solder than the other components like the LEDs and the diodes. But don't exaggerate... 
 
-![Kailh hot swap sockets]()
+> Add image here: "Kailh hot swap sockets"
 
 
 
