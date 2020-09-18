@@ -122,7 +122,7 @@ Attach the connector for the OLED on front side (opposite side of diodes). Be ca
 Before installing the Pro Micro, no matter which (can also happen on the elite c), check whether they are working by plugging them in and flashing the default keymap. 
 
 The pin header enclosed in the bag of Pro Micro can be used, but i recommend to use the Mill-Max socket headers.
-With the Mill-Max header it's easier to replace the Pro Micro, if it's broken. (Especially the Pro Micros will break at some point)
+With the Mill-Max header it's easier to replace the Pro Micro, if it's broken. (Especially the Pro Micros will at some point)
 
 ![Standard header/ Mill-Max socket header](img/mill-max-12-single-row-socket-1.jpg)
 
@@ -134,7 +134,13 @@ Solder the Standard header/Mill-Max sockets from the **back side**.
 
 ![Mill-Max socket headers](img/mill-max-socket-header-1.jpg)
 
-Insert the pins (you can also use legs from through hole diodes/resistor) with a plier into the sockets.
+Insert the pins (you can also use legs from through hole diodes/resistor) with a plier into the sockets.## Attach the OLED display
+On the **front side** of the board, apply enough solder to bridge the four jumper terminals in the Pro Micro section.
+
+![](img/oled-jumper-pins-1.jpg)
+
+Attach the connector for the OLED on front side (opposite side of diodes). Be careful to avoid adding a lot of solder, as it is easy for solder to flow into the connector.
+![]()
 
 ![](img/mill-max-12-single-row-socket-2.jpg)
 
@@ -146,7 +152,7 @@ Solder the pins and shorten the pins with diagonal pliers.
 
 ![](img/mill-max-12-single-row-socket-4.jpg)
 
-For other ways to mount your Pro Micros, look at [the crkbd build guide.](https://nicedoc.io/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md#using-pin-sockets)
+For other ways to mount your Pro Micros, look at ![the crkbd build guide.](https://nicedoc.io/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md#using-pin-sockets)
 
 Before you ask: The Procedure is absolutely identical for the Elite-C.
 
