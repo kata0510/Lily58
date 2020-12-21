@@ -41,11 +41,12 @@ Part name | Quantity | Remarks | Photo |
 | SK6812 Mini-E | 58 pcs |RGB led's for keycap backlight **(underglow led's must be soldered, because they are connected in series)** ||
 
 ## Firmware:
+Clone/download the QMK firmware and execute the following in the [qmk_firmware](https://github.com/qmk/qmk_firmware) directory to write the default Lily58L keymap
 
-**Right now the Lily58L code is not merged into QMK Master. You can find the code [here](https://github.com/BenRoe/qmk_firmware/tree/Lily58L/keyboards/lily58l).**
+    make lily58/light:lily58l:avrdude
 
- 
-Clone/download the Lily58L firmware branch and execute the following in the `qmk_firmware` directory to write the default Lily58L keymap
 
-    git checkout Lily58L
-    qmk compile -kb lily58l -km default   
+When **`Detecting USB port, reset your controller now...`** is displayed, press the reset button on the keyboard to start writing.
+Each half of the keyboard must be programmed separately using this approach.
+
+If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' with 'dfu'

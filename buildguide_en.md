@@ -246,7 +246,7 @@ The board requires a keymap in order to function. This section assumes that you'
 
 The [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) can be used to write non-customized keymaps via a GUI, avoiding the need to configure a local QMK environment. (For custom keymaps, it's recommended to build the full environment described above).
  
-Clone/download the QMK firmware and execute the following in the `qmk_firmware` directory to write the default Lily58L keymap
+Clone/download the QMK firmware and execute the following in the [qmk_firmware](https://github.com/qmk/qmk_firmware) directory to write the default Lily58L keymap
 
     make lily58/light:lily58l:avrdude
 
