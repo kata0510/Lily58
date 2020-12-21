@@ -1,6 +1,29 @@
-# Lily58L Pro Build Guide [WIP]
+# Lily58L Pro Build Guide
 
-## Required parts
+<!-- TOC depthfrom:2 depthto:2 -->
+
+- [BOM](#bom)
+- [Introduction](#introduction)
+- [Attach the diodes](#attach-the-diodes)
+- [Solder the led's for underglow optionally](#solder-the-leds-for-underglow-optionally)
+- [Solder the led's for keycap back optionally](#solder-the-leds-for-keycap-back-optionally)
+- [Soldering the TRRS jack and reset switch](#soldering-the-trrs-jack-and-reset-switch)
+- [Attach the OLED display](#attach-the-oled-display)
+- [Install Pro Micro with sockets](#install-pro-micro-with-sockets)
+- [Solder the rotary encoder](#solder-the-rotary-encoder)
+- [Solder the sockets](#solder-the-sockets)
+- [Case assembly](#case-assembly)
+- [Flash keymap on Pro Micro](#flash-keymap-on-pro-micro)
+- [Default keymap](#default-keymap)
+- [Operation check](#operation-check)
+- [When in trouble](#when-in-trouble)
+- [Customize the default keymap](#customize-the-default-keymap)
+
+<!-- /TOC -->
+
+## BOM
+
+### Required parts
 
 Part name | Quantity | Remarks | Photo |
 | ------- | -------- | ------- | ----- |
@@ -17,7 +40,7 @@ Part name | Quantity | Remarks | Photo |
 | Micro USB or USB-C cable | 1 pcs | Dependent what you use on the master half. ||
 
 
-## Optionally:
+### Optionally parts
 
 Part name | Quantity | Remarks | Photo |
 | ------- | -------- | ------- | ----- |
@@ -117,7 +140,7 @@ On the **front side** of the board, apply enough solder to bridge the four jumpe
 
 Attach the connector for the OLED on front side (opposite side of diodes). Be careful to avoid adding a lot of solder, as it is easy for solder to flow into the connector.
 
-## Install Pro Micro
+## Install Pro Micro (with sockets)
 
 **Before installing the Pro Micro, no matter which (can also happen on the elite c), check whether they are working by plugging them in and flashing the default keymap.** 
 
@@ -150,7 +173,7 @@ For other ways to mount your Pro Micros, look at [the crkbd build guide.](https:
 
 Before you ask: The Procedure is absolutely identical for the Elite-C.
 
-## Some tipps for installing the OLED on the socket
+### Some tipps for installing the OLED on the socket
 
 - if you soldered the socket for the OLED, remove the black plastic thingy that's part of the header installed in the OLED. The you'll be able to shorten it's legs with your pliers and put them into the socket, resulting into a way more low profile OLED.  
 - If you do not have sockets installed, you can add height to the oled, by removing pins out of headers, and putting the empty black plastics part onto the headers of the OLED.
@@ -166,7 +189,7 @@ Soldering the rotary encoder is as simple as any other component. Put the encode
 **For your information.** The top **two** legs serve as a simple connection that is closed by the rotary encoders tactile press. It's connected to the pins a switch would be connected to, if there were on in the place of the rotary encoder. Therefore, in your firmware the rotary encoder will serve, inter alia, as a switch in the matrix.
 The lower three pins do the actual rotary-encoding part
 
-## You have reached a checkpoint 
+### You have reached a checkpoint 
 
 Plug your keyboard, look what happens, solve problems, be happy if there are none. (if you followed all the steps your pro micros should have firmware at this point)
 By now you can also checked whether all switches will be able to work. In order to do so, short the pads on which the kailh sockets will be installed (next step) with tweezers. 
@@ -183,16 +206,16 @@ The sockets take **way** more solder than the other components like the LEDs and
 
 > Add image here: "Kailh hot swap sockets"
 
+## Case assembly
 
-
-## Attach the spacer
+### Attach the spacer
 Attach four 10mm round spacers to the holes near Pro Micro.
 It's easy to insert a screw from the back of the board and attach the spacer from the top.
 ![2019-01-26 15 02 38](https://user-images.githubusercontent.com/6285554/51967859-c0913b00-24b3-11e9-966c-f3621ed398e5.jpg)
 
 Peel off the masking tape used to identify the front and back of the board.
 
-## Attach the key switch
+### Attach the key switch
 Attach the top plate spacers for alignment. (MX: 7mm Choc: 4mm)
 ![2019-01-26 14 56 05](https://user-images.githubusercontent.com/6285554/51967395-912dfe80-24b2-11e9-9cc7-b4520063f36c.jpg)
 ![2019-01-26 14 56 24](https://user-images.githubusercontent.com/6285554/51967376-83787900-24b2-11e9-82a0-850556daccfc.jpg)
@@ -210,7 +233,7 @@ Always be careful to put the switches in nice and straight, otherwise you'll ben
 After mounting the plate, push the switches again to make sure that installation is complete.
 ![2019-01-26 15 10 06](https://user-images.githubusercontent.com/6285554/51967840-b66f3c80-24b3-11e9-8f50-6d8d31fe85e5.jpg)
 
-## Pro Micro protective acrylic installation
+### Pro Micro protective acrylic installation
 Peel off the protective plastic layer covering the acrylic, and attach the acrylic to the board.
 **Mount with the wider side (labeled "幅が広い" here) outwards.** 
 
@@ -218,24 +241,20 @@ Peel off the protective plastic layer covering the acrylic, and attach the acryl
 
 ![2019-01-26 15 21 15](https://user-images.githubusercontent.com/6285554/51967842-b8d19680-24b3-11e9-8402-85180ce10403.jpg)
 
-## Write key map
+## Flash keymap on Pro Micro
 The board requires a keymap in order to function. This section assumes that you're familiar with keymaps and the use of the QMK tool. If not, please refer to [the QMK "Getting Started" guide](https://docs.qmk.fm/#/getting_started_build_tools) (Windows: MSYS2; Mac, Linux: avrdude)
 
 The [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) can be used to write non-customized keymaps via a GUI, avoiding the need to configure a local QMK environment. (For custom keymaps, it's recommended to build the full environment described above).
-
-**Right now the Lily58L code is not merged into QMK Master. You can find the code [here](https://github.com/BenRoe/qmk_firmware/tree/Lily58L/keyboards/lily58l).**
-
  
-Clone/download the Lily58L firmware branch and execute the following in the `qmk_firmware` directory to write the default Lily58L keymap
+Clone/download the QMK firmware and execute the following in the `qmk_firmware` directory to write the default Lily58L keymap
 
-	git checkout Lily58L
-    qmk compile -kb lily58l -km default   
+    make lily58/light:lily58l:avrdude
 
 
-When **`Detecting USB port, reset your controller now ...`** is displayed, press the reset button on the keyboard to start writing.
+When **`Detecting USB port, reset your controller now...`** is displayed, press the reset button on the keyboard to start writing.
 Each half of the keyboard must be programmed separately using this approach.
 
-Here is a [compiled firmware hex file](lily58l_rev1_default.hex) for the Lily58L with the default keymap.
+If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' with 'dfu'
 
 ## Default keymap
 The default keymap is laid out on the assumption that it will be used in the MacOS/US keyboard environment. Feel free to get creative and experiment with keymaps that match your preferences; consider changing to the JIS layout or adding a key to switch between English and Kana, for example.
@@ -244,13 +263,13 @@ The best of my own keyboard:
 ![lily58_default](https://user-images.githubusercontent.com/6285554/47273241-38ee8300-d5cc-11e8-9099-10c1b35e24fc.png)
 
 ## Operation check
-Connect the left and right sides with a TRRS cable, connect the MicroUSB cable to Pro Micro on the left side (in the case of the default key map), and check if the key responds.
+Connect the left and right sides with a TRRS cable, connect the MicroUSB cable to Pro Micro on the left side (in the case of the default keymap), and check if the key responds.
 The build is completed by attaching the four rubber feet to the back of each board. Thank you for your hard work.
 ![2019-01-26 15 24 52](https://user-images.githubusercontent.com/6285554/51967992-24b3ff00-24b4-11e9-8cd3-1e679094682f.jpg)
 ![unadjustednonraw_thumb_2ddc](https://user-images.githubusercontent.com/6285554/53640050-6203dc00-3c6e-11e9-9434-5591ed3e414f.jpg)
 
 
-## Congratulations(?)
+### Congratulations(?)
 If everything works: You have built your lily58L. Have fun!
 If something doesn't work:
 
@@ -272,26 +291,25 @@ Check the direction of the diode in question. If it is wrong, remove it and re-s
 
 ### Q. A symbol different from the symbol input by "@" or "[" etc. is input (on Windows, etc.)
 Since recognition of keyboard is recognized as JIS keyboard on OS, another symbol will be input when inputting with Lily 58 (treated as US keyboard).
-Please set Lily 58 as a US keyboard in the OS keyboard settings. After switching, switching to Japanese input becomes the switching key for the US keyboard, and it differs from the JIS keyboard, so please be careful (it can be customized with the key map etc.).
+Please set Lily 58 as a US keyboard in the OS keyboard settings. After switching, switching to Japanese input becomes the switching key for the US keyboard, and it differs from the JIS keyboard, so please be careful (it can be customized with the keymap etc.).
 
 
 **If you have any problems, please feel free to send a message on Discord (https://discord.gg/frjFXZB) or Twitter: [@keycapsss](https://twitter.com/keycapsss)**
 
-## Change the key map
-This self-made keyboard use the QMK firmware, described above. The QMK firmware is highly customizable, and you can unlock a lot functionality simply by editing the key map.
+## Customize the default keymap
+This self-made keyboard use the QMK firmware, described above. The QMK firmware is highly customizable, and you can unlock a lot functionality simply by editing the keymap.
 ### Edit keymap.c and customize
-When customizing a keymap, start by making a copy of the `qmk_firmware/keyboards/lily58/keymaps/default` folder and modifying that directory's internal `keymap.c` file.
+When customizing a keymap, start by making a copy of the `qmk_firmware/keyboards/lily58/keymaps/lily58l` folder and modifying that directory's internal `keymap.c` file.
 Please refer to the [official QMK documentation](https://docs.qmk.fm/#/keycodes) for the key codes and programming specifics.
 
-After changing the key map,
+After changing the keymap,
 
-    sudo make lily58:(any folder name):avrdude
+    make lily58/light:lily58lcopy:avrdude
 
 If you get an error, please double-check the board, connection and command.
 
 
 ### Handedness by EEPROM
-I'll just add this as a tipp, cause it's fucking cool. 
 You can tell each side of the Keyboard, whether it's left or right, by writing it into it's eeprom. 
 In order to do so, first put 
 
@@ -300,10 +318,10 @@ In order to do so, first put
 into your config.h. 
 Then flash the keymap with 
 	
-	make lily58l:(yourkeymap):avrdude-split-left 
+	make make lily58/light:(yourkeymap):avrdude-split-left 
 and
 
-	make lily58l:(yourkeymap):avrdude-split-right
+	make make lily58/light:(yourkeymap):avrdude-split-right
 respectively.
 If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' with 'dfu'
 
