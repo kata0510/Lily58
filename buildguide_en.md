@@ -18,6 +18,7 @@
 - [Operation check](#operation-check)
 - [When in trouble](#when-in-trouble)
 - [Customize the default keymap](#customize-the-default-keymap)
+- [Use "Per Key" LEDs without underglow LEDs](#use-per-key-leds-without-underglow-leds)
 
 <!-- /TOC -->
 
@@ -326,3 +327,12 @@ respectively.
 If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' with 'dfu'
 
 From then on, your keyboard will know, which side they are, no matter which side you plug in. You won't have to use the flags again when flashing an update of your keymap.
+
+
+## Use "Per Key" LEDs without underglow LEDs
+
+If you don't want to use the underglow function with the SK6812-Mini LEDs, then bridget the solder pads on the following pictures with a small wire.
+
+![Left half - bridge underglow](img/lily58l-birdge-underglow-1.png)
+
+![Right half - bridge underglow](img/lily58l-birdge-underglow-2.png)
