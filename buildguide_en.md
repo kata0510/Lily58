@@ -40,7 +40,6 @@ Part name | Quantity | Remarks | Photo |
 | Key caps | 58 pcs | 1.5U caps, can also be 1U ||
 | Micro USB or USB-C cable | 1 pcs | Dependent what you use on the master half. ||
 
-
 ### Optionally parts
 
 Part name | Quantity | Remarks | Photo |
@@ -49,8 +48,8 @@ Part name | Quantity | Remarks | Photo |
 | SK6812 Mini | 12 pcs | RGB led's for underglow ||
 | SK6812 Mini-E | 58 pcs |RGB led's for keycap backlight **(underglow led's must be soldered, because they are connected in series)** ||
 
-
 ## Introduction
+
 **Note that the case of the black version has a scratch-resistant paint (solder resist) that can arrive with scratches from shipping and transportation. This is the nature of the product.** 
 
 **In addition, please be careful, as the case will be scratched if it hits or rubs a hard thing after assembly.**
@@ -61,8 +60,8 @@ Mark the surface with masking tape to make it easy to keep track of the back and
 
 ![](img/lily58l-mx-1.jpg)
 
-
 ## Attach the diodes
+
 The diodes are mounted on the **back side** of the board.
 
 Pay attention to orientation, Diodes are polarized. If the orientation is incorrect, the key will not respond.
@@ -88,16 +87,16 @@ When all diodes have been soldered, check for missing spots.
 You can use a multimeter on the front side of the board to ensure that the solder connections are good and that the orientation of the diodes is correct.
 
 ## Solder the led's for underglow (optionally)
+
 Solder the SK6812 Mini led's (without legs), to the marked positions on the **back side** of the board.
 
 ![SK6812 Mini RGB led's](img/sk6812-mini-led-1.jpg)
 
 **Pay attention to orientation of the led's.**
 
-![SK6812-Mini led orientation](img/sk6812-mini-led-2.jpg) 
+![SK6812-Mini led orientation](img/sk6812-mini-led-2.jpg)
 
 The led's are connected in series. If a led is broken or has bad solder connections, the following led's will not light up.
-
 
 ## Solder the led's for keycap back (optionally)
 > **It is necessary to solder all SK6812 Mini led's (underglow) in the previous step, to use the led's for the keycaps (all leds are connected in series).**
@@ -113,7 +112,7 @@ Correct orientation from the front view.
 
 ![](img/sk6812-mini-e-led-4.jpg)
 
-Begin by pre-soldering one side of the Led pad, place the component, and hold it in place with tweezers. 
+Begin by pre-soldering one side of the Led pad, place the component, and hold it in place with tweezers.
 
 ![](img/sk6812-mini-e-led-2.jpg)
 
@@ -127,14 +126,16 @@ Doublecheck the last LED that lights up properly and the first that doesn't.
 On the LEDs with legs it's easily possible to get a loose connection. 
 
 ## Soldering the TRRS jack and reset switch
+
 The TRRS jack and the reset switch are mounted on the **front side** (opposite side of diodes).
 Attach the parts and fix them temporarily with masking tape. Turn over the board and solder the pins, making sure that the TRRS jack and reset switch are in firm contact with the board.
 
 ![TRRS jack and reset button](img/trrs-jack-reset-button-1.jpg)
 
-**be careful** don't be careless doing this part. TRRS jacks are parts you can indeed mess up. I promise. 
+**be careful** don't be careless doing this part. TRRS jacks are parts you can indeed mess up. I promise.
 
 ## Attach the OLED display
+
 On the **front side** of the board, apply enough solder to bridge the four jumper terminals in the Pro Micro section.
 
 ![](img/oled-jumper-pins-1.jpg)
@@ -190,14 +191,15 @@ Soldering the rotary encoder is as simple as any other component. Put the encode
 **For your information.** The top **two** legs serve as a simple connection that is closed by the rotary encoders tactile press. It's connected to the pins a switch would be connected to, if there were on in the place of the rotary encoder. Therefore, in your firmware the rotary encoder will serve, inter alia, as a switch in the matrix.
 The lower three pins do the actual rotary-encoding part
 
-### You have reached a checkpoint 
+### You have reached a checkpoint
 
 Plug your keyboard, look what happens, solve problems, be happy if there are none. (if you followed all the steps your pro micros should have firmware at this point)
-By now you can also checked whether all switches will be able to work. In order to do so, short the pads on which the kailh sockets will be installed (next step) with tweezers. 
+By now you can also checked whether all switches will be able to work. In order to do so, short the pads on which the kailh sockets will be installed (next step) with tweezers.
 
 > Add image here: "Test switches with tweezer"
 
 ## Solder the sockets
+
 The sockets are mounted on the **back side**, the same side as the diodes.
 
 Much like the approach used for the diodes above, begin by pre-soldering one side of the socket pad, place the component, and hold it in place with tweezers. (The sockets can also be held in place by hand, but please take extra care not to burn yourself.)
@@ -210,6 +212,7 @@ The sockets take **way** more solder than the other components like the LEDs and
 ## Case assembly
 
 ### Attach the spacer
+
 Attach four 10mm round spacers to the holes near Pro Micro.
 It's easy to insert a screw from the back of the board and attach the spacer from the top.
 ![2019-01-26 15 02 38](https://user-images.githubusercontent.com/6285554/51967859-c0913b00-24b3-11e9-966c-f3621ed398e5.jpg)
@@ -217,6 +220,7 @@ It's easy to insert a screw from the back of the board and attach the spacer fro
 Peel off the masking tape used to identify the front and back of the board.
 
 ### Attach the key switch
+
 Attach the top plate spacers for alignment. (MX: 7mm Choc: 4mm)
 ![2019-01-26 14 56 05](https://user-images.githubusercontent.com/6285554/51967395-912dfe80-24b2-11e9-9cc7-b4520063f36c.jpg)
 ![2019-01-26 14 56 24](https://user-images.githubusercontent.com/6285554/51967376-83787900-24b2-11e9-82a0-850556daccfc.jpg)
@@ -235,6 +239,7 @@ After mounting the plate, push the switches again to make sure that installation
 ![2019-01-26 15 10 06](https://user-images.githubusercontent.com/6285554/51967840-b66f3c80-24b3-11e9-8f50-6d8d31fe85e5.jpg)
 
 ### Pro Micro protective acrylic installation
+
 Peel off the protective plastic layer covering the acrylic, and attach the acrylic to the board.
 **Mount with the wider side (labeled "幅が広い" here) outwards.** 
 
@@ -243,6 +248,7 @@ Peel off the protective plastic layer covering the acrylic, and attach the acryl
 ![2019-01-26 15 21 15](https://user-images.githubusercontent.com/6285554/51967842-b8d19680-24b3-11e9-8402-85180ce10403.jpg)
 
 ## Flash keymap on Pro Micro
+
 The board requires a keymap in order to function. This section assumes that you're familiar with keymaps and the use of the QMK tool. If not, please refer to [the QMK "Getting Started" guide](https://docs.qmk.fm/#/getting_started_build_tools) (Windows: MSYS2; Mac, Linux: avrdude)
 
 The [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) can be used to write non-customized keymaps via a GUI, avoiding the need to configure a local QMK environment. (For custom keymaps, it's recommended to build the full environment described above).
@@ -251,34 +257,37 @@ Clone/download the QMK firmware and execute the following in the [qmk_firmware](
 
     make lily58/light:lily58l:avrdude
 
-
 When **`Detecting USB port, reset your controller now...`** is displayed, press the reset button on the keyboard to start writing.
 Each half of the keyboard must be programmed separately using this approach.
 
 If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' with 'dfu'
 
 ## Default keymap
+
 The default keymap is laid out on the assumption that it will be used in the MacOS/US keyboard environment. Feel free to get creative and experiment with keymaps that match your preferences; consider changing to the JIS layout or adding a key to switch between English and Kana, for example.
 
 The best of my own keyboard:
 ![lily58_default](https://user-images.githubusercontent.com/6285554/47273241-38ee8300-d5cc-11e8-9099-10c1b35e24fc.png)
 
 ## Operation check
+
 Connect the left and right sides with a TRRS cable, connect the MicroUSB cable to Pro Micro on the left side (in the case of the default keymap), and check if the key responds.
 The build is completed by attaching the four rubber feet to the back of each board. Thank you for your hard work.
 ![2019-01-26 15 24 52](https://user-images.githubusercontent.com/6285554/51967992-24b3ff00-24b4-11e9-8cd3-1e679094682f.jpg)
 ![unadjustednonraw_thumb_2ddc](https://user-images.githubusercontent.com/6285554/53640050-6203dc00-3c6e-11e9-9434-5591ed3e414f.jpg)
 
-
 ### Congratulations(?)
+
 If everything works: You have built your lily58L. Have fun!
 If something doesn't work:
 
 ## When in trouble
 ### Q. One or more rows/columns of key switches do not respond
+
 A. The Pro Micro board may not be soldered and attached firmly. Check again, and re-solder and reinstall if necessary.
 
-### Q. A single key switch doesn't respond 
+### Q. A single key switch doesn't respond
+
 A. There may be a problem with the key switch's insertion, socket or diode soldering.
 
 In the case of bad key switch insertion:
@@ -291,15 +300,18 @@ In the case of badly attached diode:
 Check the direction of the diode in question. If it is wrong, remove it and re-solder it. Additionally, if there isn't enough solder, please re-solder.
 
 ### Q. A symbol different from the symbol input by "@" or "[" etc. is input (on Windows, etc.)
+
 Since recognition of keyboard is recognized as JIS keyboard on OS, another symbol will be input when inputting with Lily 58 (treated as US keyboard).
 Please set Lily 58 as a US keyboard in the OS keyboard settings. After switching, switching to Japanese input becomes the switching key for the US keyboard, and it differs from the JIS keyboard, so please be careful (it can be customized with the keymap etc.).
-
 
 **If you have any problems, please feel free to send a message on Discord (https://discord.gg/frjFXZB) or Twitter: [@keycapsss](https://twitter.com/keycapsss)**
 
 ## Customize the default keymap
+
 This self-made keyboard use the QMK firmware, described above. The QMK firmware is highly customizable, and you can unlock a lot functionality simply by editing the keymap.
+
 ### Edit keymap.c and customize
+
 When customizing a keymap, start by making a copy of the `qmk_firmware/keyboards/lily58/keymaps/lily58l` folder and modifying that directory's internal `keymap.c` file.
 Please refer to the [official QMK documentation](https://docs.qmk.fm/#/keycodes) for the key codes and programming specifics.
 
@@ -308,7 +320,6 @@ After changing the keymap,
     make lily58/light:lily58lcopy:avrdude
 
 If you get an error, please double-check the board, connection and command.
-
 
 ### Handedness by EEPROM
 You can tell each side of the Keyboard, whether it's left or right, by writing it into it's eeprom. 
@@ -327,7 +338,6 @@ respectively.
 If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' with 'dfu'
 
 From then on, your keyboard will know, which side they are, no matter which side you plug in. You won't have to use the flags again when flashing an update of your keymap.
-
 
 ## Use "Per Key" LEDs without underglow LEDs
 
