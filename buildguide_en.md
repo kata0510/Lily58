@@ -282,6 +282,9 @@ If everything works: You have built your lily58L. Have fun!
 If something doesn't work:
 
 ## When in trouble
+
+[![Lily58L schematic](img/Lily58L-schematic.png)](img/Lily58L-schematic.png?raw=true)
+
 ### Q. One or more rows/columns of key switches do not respond
 
 A. The Pro Micro board may not be soldered and attached firmly. Check again, and re-solder and reinstall if necessary.

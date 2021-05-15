@@ -21,7 +21,7 @@ Part name | Quantity | Remarks | Photo |
 | ------- | -------- | ------- | ----- |
 | Lily58L PCB | 2 pcs ||
 | Lily58L case | 1 set | 2 solid panels, 2 with holes for switches |
-| [Pro Micro](https://keycapsss.com/keyboard-parts/parts/79/arduino-pro-micro-atmega32u4-controller) [Puchi-C](https://keycapsss.com/keyboard-parts/mcu-controller/141/puchi-c-pro-micro-replacement-with-usb-c-and-atmega32u4) or Elite-C | 2 pcs (a mix is possible) | Optionally, use [Mill-Max Single Row Socket Headers](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-pins-mill-max-series-315), to make it hot-swappable. ||
+| [Pro Micro](https://keycapsss.com/keyboard-parts/parts/79/arduino-pro-micro-atmega32u4-controller), [Puchi-C](https://keycapsss.com/keyboard-parts/mcu-controller/141/puchi-c-pro-micro-replacement-with-usb-c-and-atmega32u4) or Elite-C | 2 pcs (a mix is possible) | Optionally, use [Mill-Max Single Row Socket Headers](https://keycapsss.com/keyboard-parts/parts/100/single-row-socket-headers-pins-mill-max-series-315), to make it hot-swappable. ||
 | Key switch (MX) | 58 pcs |  ||
 | [Kailh switch socket](https://keycapsss.com/keyboard-parts/parts/49/kailh-hot-swap-pcb-sockets-10-pcs) | 58 pcs |  ||
 | Diodes 1N4148W (SMD) | 58 pcs |||
@@ -53,4 +53,4 @@ If you're using DFU bootloader (in case of the elite c), replace the 'avrdude' w
 
 ## Schematic:
 
-[![Lily58L schematic](/img/Lily58L-schematic.png)](//img/Lily58L-schematic.png)
+[![Lily58L schematic](img/Lily58L-schematic.png)](img/Lily58L-schematic.png?raw=true)
