@@ -352,6 +352,6 @@ From then on, your keyboard will know, which side they are, no matter which side
 
 If you don't want to use the underglow function with the SK6812-Mini LEDs, then bridget the solder pads on the following pictures with a small wire.
 
-![Left half - bridge underglow](img/lily58l-birdge-underglow-1.png)
+![Left half - bridge underglow](img/lily58l-bridge-underglow-1.png)
 
-![Right half - bridge underglow](img/lily58l-birdge-underglow-2.png)
+![Right half - bridge underglow](img/lily58l-bridge-underglow-2.png)
