@@ -1,5 +1,5 @@
 ## 新しいビルドガイドページを参照ください
-[https://kata0510.github.io/Lily58-Document/Lily58_Lite_Rev2.html](https://kata0510.github.io/Lily58-Document/Lily58_Lite_Rev2.html)
+[https://kata0510.github.io/Lily58-Document/Lily58_Lite_Rev2/](https://kata0510.github.io/Lily58-Document/Lily58_Lite_Rev2/)
 
 ## キット組み立てに関する詳細は以下のYouTube動画を参照下さい  
 [![](https://img.youtube.com/vi/t6HLQvqlsVM/0.jpg)](https://www.youtube.com/watch?v=t6HLQvqlsVM)  
