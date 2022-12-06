@@ -81,7 +81,7 @@ Check [Helix's Build Guide (JP)](https://github.com/MakotoKurauchi/helix/blob/ma
 
 ### Using supplied pins
 
-Install the Pro Micro on the front side of the PCB. The short side of the pins are sldered to the Pro Micro MCU, the long side is soldered to the Lily58 PCB.
+Install the Pro Micro on the front side of the PCB. The short side of the pins are soldered to the Pro Micro MCU, the long side is soldered to the Lily58 PCB.
 
 The long side of the pins go in the PCB holes marked by long rectangles (highlighted in red on the diagram).
 
@@ -129,11 +129,11 @@ Screw the cover using the flat head screws.
 
 ## Configure and flash QMK firmware
 
-Modifying and flashing a QMK keymap for the Lily58 requires a working QMK building environment, [please check the QMK official documentation](https://docs.qmk.fm/#/getting_started_build_tools). If you are going to use the [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases), there is no need to configure a building an environment, you can just define the keymap using the Toolbox GUI (keep in mind that the Toolbox cannot change the keymap).
+Modifying and flashing a QMK keymap for the Lily58 requires a working QMK build environment, [please check the QMK official documentation](https://docs.qmk.fm/#/getting_started_build_tools). If you are going to use the [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases), there is no need to configure a build an environment, you can just define the keymap using the Toolbox GUI (keep in mind that the Toolbox cannot change the keymap).
 
 The firmware flashing process requires the QMK firmware to be written in **both** microcontrollers of the Lily58 keyboard.
 
-Once you have working build environment connect the first half of the keyboard to your computer. Compile and flash the default QMK keymap for Lily58 using the following command:
+Once you have a working build environment connect the first half of the keyboard to your computer. Compile and flash the default QMK keymap for Lily58 using the following command:
 
 ```sh
 # instructions are for QMK release at the time of writing, 2022-12-06
