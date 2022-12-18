@@ -1,7 +1,7 @@
 # Lily58 ビルドガイド 
 
 ## 新しいビルドガイドページを参照ください
-[https://kata0510.github.io/Lily58-Document/Lily58_BG.html](https://kata0510.github.io/Lily58-Document/Lily58_BG.html)
+[https://kata0510.github.io/Lily58-Document/Lily58_BG/](https://kata0510.github.io/Lily58-Document/Lily58_BG/)
 
 ## 必要部品
 
