@@ -85,7 +85,7 @@ The pin header enclosed in the bag of ProMicro is not used. For kits purchased a
 ![IMG_2662](https://user-images.githubusercontent.com/6285554/57210525-f5171480-7017-11e9-9d92-3a345d53db94.jpg)
 When attaching with a spring pin header (con-through), solder it according to the method described in the Helix build guide and then attach it to the Lily 58 PCB. [Helix build guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)
 
-Note the **outlined sets of holes in PCB,** and insert the ProMicro into the outlined holes. Please be careful, as the **connections are different for the right and left boards.**
+Note the **outlined sets of holes in PCB,** and insert the ProMicro into the outlined holes. ProMicro must be inserted with its component side facing the PCB. Please be careful, as the **connections are different for the right and left boards.**
 
 ![ProMicro_PCB](https://user-images.githubusercontent.com/6285554/48819671-6a599a80-ed94-11e8-8e5d-6a6abca326a7.png)
 
