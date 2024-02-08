@@ -10,6 +10,7 @@ Lily58 is 6*4+4keys column-staggered split keyboard.
   - [PCB Data](https://github.com/kata0510/Lily58/tree/master/Pro/PCB)
   - [BuildGuide JP](https://kata0510.github.io/Lily58-Document/Lily58_Pro_BG/)
   - [BuildGuide EN](https://github.com/kata0510/Lily58/blob/master/Pro/Doc/buildguide_en.md)
+  - [BuildGuide IT](https://github.com/kata0510/Lily58/blob/master/Pro/Doc/buildguide_it.md)
   - [Shop(Yushakobo)](https://yushakobo.jp/shop/lily58-pro/)
 - Lily58 Lite Rev2
   - [BuildGuide(YouTube)](https://www.youtube.com/watch?v=t6HLQvqlsVM)
