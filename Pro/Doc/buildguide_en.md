@@ -1,4 +1,4 @@
-# Lily58 Pro Build Guide [WIP]
+# Lily58 Pro Build Guide
 
 ## Required parts
 
@@ -83,7 +83,7 @@ Insert the OLED pin into the socket, attach the OLED module to it, and solder th
 ## Install Pro Micro
 The pin header enclosed in the bag of ProMicro is not used. For kits purchased at YushaKobo, a spring pin header is included, so use that.
 ![IMG_2662](https://user-images.githubusercontent.com/6285554/57210525-f5171480-7017-11e9-9d92-3a345d53db94.jpg)
-When attaching with a spring pin header (con-through), solder it according to the method described in the Helix build guide and then attach it to the Lily 58 PCB. [Helix build guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)
+When attaching with a spring pin header (con-through), solder it according to the method described in the Helix build guide and then attach it to the Lily 58 PCB. [Helix build guide](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_en.md#pro-micro)
 
 Note the **outlined sets of holes in PCB,** and insert the ProMicro into the outlined holes. Please be careful, as the **connections are different for the right and left boards.**
 
