@@ -7,6 +7,9 @@
 - Backlight Support
 - Firmware: QMK Firmware
 
+### Assembly Guide
+- TBA
+
 ### Shop
 - TBA
 
