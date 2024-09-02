@@ -48,6 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
+          "45_degree_only": false,
           "min_clearance": 0.5
         }
       },
@@ -106,9 +107,12 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
@@ -122,7 +126,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -201,7 +205,8 @@
         }
       },
       "via_dimensions": [],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
     },
     "ipc2581": {
       "dist": "",
@@ -468,7 +473,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerver_v3/",
+      "plot": "../../../../../Library/CloudStorage/GoogleDrive-yuchi.kbd@gmail.com/マイドライブ/Lily58/Lite_Rev3/gerber_v4/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Lily58_Lite_Rev3.step",
