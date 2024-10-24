@@ -10,6 +10,9 @@
 ### Assembly Guide
 - TBA
 
+### BOM
+http://lily58-public.s3-website-ap-northeast-1.amazonaws.com/Lily58_Pro_V2_BOM.html
+
 ### Shop
 - TBA
 
