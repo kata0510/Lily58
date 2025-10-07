@@ -5,7 +5,7 @@
 | Componente | Cantidad | Notas | Foto |
 | ------- | -------- | ------- | ----- |
 | Lily 58 PCB | 2 piezas ||
-| Lily 58 case | 1 set (4 piezas) | 2 paneles solidos, 2 con agujeros para los switches |
+| Lily 58 case | 1 set (4 piezas) | 2 paneles sólidos, 2 con agujeros para los switches |
 | [ProMicro](https://yushakobo.jp/shop/promicro-spring-pinheader/) | 2 piezas | Opcional, usar un [spring pin header (con-through)](https://yushakobo.jp/shop/a01mc-00/) para reducir la soldadura y evitar daños en la frágil placa ProMicro. (El conector con-through recomendado se incluye en el kit que se vende en YushaKobo). ||
 | Key switch (Cherry MX, Kailh choc) | 58 piezas | MX switches y choc switches usan conectores separados ||
 | [Conector del Switch](https://yushakobo.jp/shop/) | 58 piezas | Necesario para la instalación de la tecla del switch ||
@@ -13,7 +13,7 @@
 | Tapas de la Tecla | 58 piezas | Tapas 1.5U, también pueden ser de 1U ||
 | Módulo OLED | 2 piezas |||
 | Interruptor táctil | 2 piezas | Switch reinicio táctil ||
-| TRRS jack | 2 piezas ||
+| Conexión TRRS | 2 piezas ||
 | Espaciador M2 | 10 piezas, 4 piezas | Choc: 4mm, MX: 7mm ||
 | M2 screw | 28 piezas |||
 | Cable TRRS | 1 cable | Cable para audio de 3,5 mm, también cable AUX (se recomienda cable de 4 polos) ||
@@ -99,7 +99,7 @@ Es fácil insertar un tornillo desde la parte posterior de la placa y colocar el
 Retire la cinta adhesiva que se usó para identificar la parte frontal y posterior de la placa.
 
 ## Coloque el interruptor de la tecla
-Coloque los espaciadores de la placa superior para alinear.(MX: 7mm Choc: 4mm)
+Coloque los espaciadores de la placa superior para alinear. (MX: 7mm Choc: 4mm)
 ![2019-01-26 14 56 05](https://user-images.githubusercontent.com/6285554/51967395-912dfe80-24b2-11e9-9cc7-b4520063f36c.jpg)
 ![2019-01-26 14 56 24](https://user-images.githubusercontent.com/6285554/51967376-83787900-24b2-11e9-82a0-850556daccfc.jpg)
 
@@ -117,16 +117,16 @@ Tras montar la placa, vuelva a presionar los interruptores para comprobar que la
 
 ## Instalación del acrílico protector ProMicro
 Retire la capa protectora de plástico que cubre el acrílico y fíjelo al tablero.
-**Mount with the wider side (labeled "幅が広い" here) outwards.**
+**Monte con el lado más ancho (etiquetado "幅が広い" aquí) hacia afuera.**
 
-![Attach with screws](https://user-images.githubusercontent.com/6285554/48837829-c4288780-edc9-11e8-8efb-6714d8e68e92.png).
+![Fijar con tornillos](https://user-images.githubusercontent.com/6285554/48837829-c4288780-edc9-11e8-8efb-6714d8e68e92.png).
 
 ![2019-01-26 15 21 15](https://user-images.githubusercontent.com/6285554/51967842-b8d19680-24b3-11e9-8402-85180ce10403.jpg)
 
 ## Escribir mapa de teclas
 La placa requiere un mapa de teclas para funcionar. Esta sección asume que está familiarizado con los mapas de teclas y el uso de la herramienta QMK. De lo contrario, consulte la guía de inicio rápido de QMK.](https://docs.qmk.fm/#/getting_started_build_tools) (Windows: MSYS2; Mac, Linux: avrdude)
 
-The [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) permite escribir mapas de teclas no personalizados mediante una interfaz gráfica de usuario, evitando así la necesidad de configurar un entorno QMK local. (Para mapas de teclas personalizados, se recomienda compilar el entorno completo descrito anteriormente).
+El [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) permite escribir mapas de teclas no personalizados mediante una interfaz gráfica de usuario, evitando así la necesidad de configurar un entorno QMK local. (Para mapas de teclas personalizados, se recomienda compilar el entorno completo descrito anteriormente).
 
 Ejecute lo siguiente en el directorio `qmk_firmware` para escribir el mapa de teclas predeterminado de Lily58.
 
@@ -144,7 +144,7 @@ La mejor de mi propio teclado:
 ![lily58_default](https://user-images.githubusercontent.com/6285554/47273241-38ee8300-d5cc-11e8-9099-10c1b35e24fc.png)
 
 ## Comprobación del funcionamiento
-Conecte los lados izquierdo y derecho con un cable TRRS, conecte el cable MicroUSB al ProMicro en el lado izquierdo (si la configuración de teclas es predeterminada) y compruebe si la tecla responde.
+Conecte los lados izquierdo y derecho con un cable TRRS, conecte el cable Micro USB al ProMicro en el lado izquierdo (si la configuración de teclas es predeterminada) y compruebe si la tecla responde.
 El ensamblaje se completa colocando las cuatro patas de goma en la parte posterior de cada placa. Gracias por su esfuerzo.
 ![2019-01-26 15 24 52](https://user-images.githubusercontent.com/6285554/51967992-24b3ff00-24b4-11e9-8cd3-1e679094682f.jpg)
 ![unadjustednonraw_thumb_2ddc](https://user-images.githubusercontent.com/6285554/53640050-6203dc00-3c6e-11e9-9434-5591ed3e414f.jpg)
